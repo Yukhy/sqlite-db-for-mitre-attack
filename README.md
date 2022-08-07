@@ -5,7 +5,9 @@
 <br>
  It is a simple sqlite database for mitre-attack. Basic information on Tactics, Techniques and Groups of MITRE ATT&CK V11 is in the database.  
  As a sqlite database, it is suitable for data analysis in Jupyter Notebook, Google Colaboratory, etc.
- 
+
+## How to Use
+Place attack.db in any directory.
 
 ## Structure of Database
  This database consists of 11 tables.　There are three tables each for tactics and techniques, one table for groups, three join tables connecting tactics and techniques, and one join table connecting groups and techniques.　Tactics, Techniques, and three intermediate tables exist for Enterprise, Mobile, and ICS, respectively.
@@ -35,7 +37,10 @@
 
 MITRE ATT&CKのデータが格納されたsqliteデータベースです。MITRE ATT&CK V11のTactics, Techniques, Groupsに関しての基本情報が格納されています。  
  sqliteデータベースであるため簡単に、Jupyter NotebookやGoogle Colaboratoryなどで利用できます。
- 
+
+## 使い方
+attack.dbを任意のディレクトリに配置してください。
+
 ## データベースの構造
  このデータベースは11個のテーブルで構成されています。　内訳はTacticsとTechniquesがそれぞれ3テーブル、Groupsが1テーブル、TacticsとTechniquesをつなぐ中間テーブルが3テーブル、GroupsとTechniquesをつなぐ中間テーブルが1テーブルです。　Tactics、Techniquesのテーブルとそれらの中間テーブルはEnterprise, Mobile, ICSごとに用意されています。
 ![ER diagram](https://i.imgur.com/rlKLTfb.png)
