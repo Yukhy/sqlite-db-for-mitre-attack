@@ -59,6 +59,6 @@ attack.dbを任意のディレクトリに配置してください。
   - GroupsとTechniques
    ![field](https://i.imgur.com/yTWZwTF.png)
 
-- サンプルディレクトリについて
-  - convert_db_to_df.ipynb  
-  本サンプルは、データベースのレコードをPandas Dataframeに変換する例です。
+## サンプルディレクトリについて
+- convert_db_to_df.ipynb  
+本サンプルは、データベースのレコードをPandas Dataframeに変換する例です。
